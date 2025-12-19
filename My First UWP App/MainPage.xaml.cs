@@ -26,5 +26,10 @@ namespace My_First_UWP_App
         {
             this.InitializeComponent();
         }
+
+        private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
