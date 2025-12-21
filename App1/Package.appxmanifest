@@ -7,14 +7,14 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="80681562-2796-4359-9237-85fe92d9969d"
+    Name="1ac3857e-a640-483d-85aa-991ecb4c4fc3"
     Publisher="CN=Jack"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="80681562-2796-4359-9237-85fe92d9969d" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="1ac3857e-a640-483d-85aa-991ecb4c4fc3" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>My First UWP App</DisplayName>
+    <DisplayName>App1</DisplayName>
     <PublisherDisplayName>Jack</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -30,12 +30,12 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="My_First_UWP_App.App">
+      EntryPoint="App1.App">
       <uap:VisualElements
-        DisplayName="Hello World"
+        DisplayName="App1"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="A Hello World App in UWP."
+        Description="App1"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
